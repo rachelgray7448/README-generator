@@ -43,7 +43,7 @@ ${data.install}
 ## Usage:
 ${data.usage}
 ## License:
-${data.license}
+This project is covered by: ${data.license}
 ## Contribution:
 ${data.contribution}
 ## Tests:
