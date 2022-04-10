@@ -1,10 +1,10 @@
 
 
 
-  ![badge](https://img.shields.io/badge/license-Apache2.0-red)
+  ![badge](https://img.shields.io/badge/license-BSD3-red)
   
 
-# test- readme Generator
+# README Generator
 
 ## Table-Of-Contents
 *[Description](#description)
@@ -15,19 +15,17 @@
 *[Test Instructions](#tests)
 *[Questions?](#questions)
 
-
-
 ## Description:
-Generates a read-me
+Generates a README.md
 ## Installation:
 N/A
 ## Usage:
-follow prompts to input your readme information
+Follow prompts for input for readme file
 ## License:
-This project is covered by: Apache2.0
+This project is covered by: BSD3
 ## Contribution:
 N/A
 ## Tests:
 N/A
 ## Questions:
-View my GitHub at [rachel.gray7448](https://github.com/rachel.gray7448), or email me at [rachel.gray7448@gmail.com](mailto:rachel.gray7448@gmail.com)
+View my GitHub at [rachelgray7448](https://github.com/rachelgray7448), or email me at [rachel.gray7448@gmail.com](mailto:rachel.gray7448@gmail.com)
