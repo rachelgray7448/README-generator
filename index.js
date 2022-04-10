@@ -1,10 +1,9 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
 
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -110,11 +109,24 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide your email:',
+        validate: emailInput => {
+            if(emailInput) {
+                return true;
+            }
+            else {
+                console.log('Please enter your email!')
+                return false;
+            }
+        }
     }
 ];
 
-
-// TODO: Create a function to write README file
+//Write file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
@@ -127,7 +139,7 @@ function writeToFile(fileName, data) {
 
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
         console.log(generateMarkdown(answers));
@@ -135,7 +147,7 @@ function init() {
     })
 }
 
-// Function call to initialize app
+
 init();
 
 
