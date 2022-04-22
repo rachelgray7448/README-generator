@@ -10,7 +10,7 @@ README Generator
 *[Questions?](#questions)
 
 ## Description:
-Generates a README.md based off of user input for categories including the title of the project, a description of the project, installation instructions, how to use the application, licensing information, contribution guidelines, instructions on any tests used, and a contact section. 
+Generates a README.md based off of user input for categories including the title of the project, a description of the project, installation instructions, how to use the application, licensing information, contribution guidelines, instructions on any tests used, and a contact section. View a video of the application in use here:  https://drive.google.com/file/d/12OYK8SgLGBpKu1NFBMOThkHEFOaIG4lz/view
 ## Installation:
 N/A
 ## Usage:
